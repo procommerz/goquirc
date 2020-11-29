@@ -1,13 +1,15 @@
 goquirc
 =======
 
+Forked from: github.com/kdar/goquirc
+
 This is a simple wrapper around [Quirc](https://github.com/dlbeer/quirc).
 
 [http://godoc.org/github.com/kdar/goquirc](http://godoc.org/github.com/kdar/goquirc)
 
 ### Install
 
-1. `go get -d github.com/kdar/goquirc`
+1. `go get -d github.com/procommerz/goquirc`
 2. `go generate` and `go install`
 
 ### Notes
