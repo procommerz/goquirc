@@ -2,9 +2,9 @@ package goquirc
 
 /*
 #cgo CFLAGS: -I./internal/quirc/lib
-#cgo windows LDFLAGS: ./libquirc.a
-#cgo linux LDFLAGS: ./libquirc.a
-#cgo darwin LDFLAGS: ./libquirc.a
+#cgo windows LDFLAGS: -lm ./libquirc.a
+#cgo linux LDFLAGS: -lm ./libquirc.a
+#cgo darwin LDFLAGS: -lm ./libquirc.a
 
 #include "internal/quirc/lib/quirc.h"
 */
